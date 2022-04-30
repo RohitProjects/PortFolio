@@ -29,16 +29,6 @@ nav .max-width{
     align-items: center;
 }
 
-/*.burger{
-   padding: 30px;
-   display: none;
-}
-
-.burger ion-icon{
-    height: 30px;
-    width: 30px;
-    color: white;
-}*/
 nav .max-width .logo{
     margin:25px;
     font-size: 35px;
@@ -572,10 +562,13 @@ footer p{
     .abo{
         height: 100vh;
     }
-    nav .max-width{
-        flex-direction: column;
+    nav .max-width .logo{
+        display : none;
     }
-    
+    nav .max-width .icon-menu li a ion-icon{
+        margin-left: 40px;
+    }
+   
     .home-content{
         padding-top: 170px;
         padding-left: 80px;
@@ -637,6 +630,9 @@ footer p{
 }
 
 @media only screen and (max-width:469px) {
+    nav .max-width .icon-menu li a ion-icon{
+        margin-left: 10px;
+    }
     .abo{
         height: 100vh;
     }
