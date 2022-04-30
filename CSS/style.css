@@ -464,25 +464,7 @@ footer p{
 }
 
 @media only screen and (max-width:728px) {
-   /*==================HAM-Burger===================*/
-  /* nav .max-width .menu li a{
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 10;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background: black;
-        transition: top 1s ease;
-        display: none;
-    }
-
-    .max-width .burger{
-        display: block;
-    }*/
+ 
     nav .max-width .menu{
         display: none;
     }
@@ -515,9 +497,6 @@ footer p{
     nav .max-width .icon-menu li a:hover{
         color: rgb(6, 250, 38);
     }
-
-
-   /*=====================================*/
 
     .con form .field input{
         width: 250px;
@@ -597,10 +576,7 @@ footer p{
     nav .max-width{
         flex-direction: column;
     }
-    /*nav .max-width .icon-menu li a ion-icon{
-        height: 22px;
-        width: 22px;
-    }*/
+    
     .home-content{
         padding-top: 170px;
         padding-left: 80px;
@@ -635,9 +611,7 @@ footer p{
     .ski .sk-content{
         padding: 0 50px 0 50px;
     }
-
-    /*-----------------------*/
-   
+    
     .con form{
         margin-top: 20px;
         margin-left: 40px; 
@@ -666,6 +640,20 @@ footer p{
 @media only screen and (max-width:469px) {
     .abo{
         height: 100vh;
+    }
+    .abo h2{
+        padding-top: 20px;
+        font-size: 35px; 
+    }
+    .ski h2{
+        padding-top: 20px;
+        font-size: 35px; 
+    }
+    .pro h1{  
+        font-size: 35px;
+    }
+    .con h1{
+        font-size: 35px;   
     }
     .abo p{
         margin-left: 15%;
@@ -696,6 +684,10 @@ footer p{
     
     .desktop .first p{   
         width: 280px;  
+    }
+     .con form{
+        margin-top: 20px;
+        margin-left: 20px; 
     }
     .con form .buttons{
         margin-left: 35px;
