@@ -474,7 +474,7 @@ footer p{
         list-style: none;
         display: flex;
         margin-right: 25px;
-        padding: 25px;
+        padding: 15px;
         font-size: 50px;
         font-weight: bold;
        
@@ -484,7 +484,6 @@ footer p{
         height: 30px;
         width: 30px;
     }
-    
     
     nav .max-width .icon-menu li a{
         text-decoration: none;
@@ -659,7 +658,7 @@ footer p{
         margin-left: 15%;
         width: 300px;
     }
-
+    
     .ski .sk-content{
         padding: 0 10px 0 10px;
     }
@@ -688,6 +687,10 @@ footer p{
      .con form{
         margin-top: 20px;
         margin-left: 20px; 
+    }
+    .con form .field input{
+        width: 350px;
+        height: 40px;
     }
     .con form .buttons{
         margin-left: 35px;
