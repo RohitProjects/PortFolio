@@ -604,6 +604,10 @@ footer p{
         padding: 0 50px 0 50px;
     }
     
+     .desktop .first p{   
+        margin-left: 40px;
+    }
+    
     .con form{
         margin-top: 20px;
         margin-left: 40px; 
