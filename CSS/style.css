@@ -652,9 +652,7 @@ footer p{
         padding-top: 20px;
         font-size: 25px; 
     }
-    .pro h1{  
-        font-size: 35px;
-    }
+  
     .con h1{
         font-size: 35px;   
     }
@@ -671,11 +669,14 @@ footer p{
         padding-top: 40px;
         font-size: 10px;
     }
+    .pro h1{  
+        font-size: 35px;
+    }
     
     .project-content h2{
         font-size: 20px;
     }
-     .desktop{  
+    .desktop{  
         margin-left: 10px;   
     }
 
@@ -685,28 +686,14 @@ footer p{
     }
 
     .desktop .first figure img{
-        height: 200px;
-        width: 300px;
+        height: 100px;
+        width: 200px;
     }
     
     .desktop .first p{   
-        width: 280px;  
+        width: 200px;  
     }
-    //--------------------------
-
-   /* .desktop{  
-       margin: auto;   
-    }
-
-    .project-content h2{
-        font-size: 30px;
-        margin-left: 10px;   
-    }
-
-    .desktop .first figure img{
-        height: 200px;
-        width: 300px;
-    }*/
+    
     
     .con h1{ 
         font-size: 35px;
