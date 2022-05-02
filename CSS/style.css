@@ -646,7 +646,7 @@ footer p{
     }
     .ski h2{
         padding-top: 20px;
-        font-size: 35px; 
+        font-size: 25px; 
     }
     .pro h1{  
         font-size: 35px;
@@ -681,19 +681,33 @@ footer p{
         width: 300px;
     }
     
-    .desktop .first p{   
-        width: 280px;  
+    .con h1{ 
+        font-size: 35px;
     }
-     .con form{
-        margin-top: 20px;
-        margin-left: 20px; 
-    }
-    .con form .field input{
-        width: 350px;
-        height: 40px;
-    }
+    
+    .con form .field label{
+        display: none;
+     }
+ 
+    .con form .field .name{
+        margin-left: 50px;
+     }
+     .con form .field .email{
+        margin-left: 45px;
+     }
+     
+     .con form .field .number{
+        margin-left: 45px
+     }
+     
+     .con form .field .enquire{
+        margin-left: 45px
+     }
+     .con form .buttons{   
+         margin-left: 20px;  
+     }
     .con form .buttons{
-        margin-left: 35px;
+        margin-left: 15px;
         margin-bottom: 60px;
     }
 }
