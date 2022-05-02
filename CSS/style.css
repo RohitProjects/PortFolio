@@ -675,9 +675,8 @@ footer p{
     .project-content h2{
         font-size: 20px;
     }
-
-    .desktop{  
-       margin: auto;   
+     .desktop{  
+        margin-left: 10px;   
     }
 
     .project-content h2{
@@ -689,6 +688,25 @@ footer p{
         height: 200px;
         width: 300px;
     }
+    
+    .desktop .first p{   
+        width: 280px;  
+    }
+    //--------------------------
+
+   /* .desktop{  
+       margin: auto;   
+    }
+
+    .project-content h2{
+        font-size: 30px;
+        margin-left: 10px;   
+    }
+
+    .desktop .first figure img{
+        height: 200px;
+        width: 300px;
+    }*/
     
     .con h1{ 
         font-size: 35px;
