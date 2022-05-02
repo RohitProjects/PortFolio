@@ -634,8 +634,12 @@ footer p{
 }
 
 @media only screen and (max-width:469px) {
+    
     nav .max-width .icon-menu li a ion-icon{
         margin-left: 10px;
+    }
+    .hom{
+        height: 100vh;   
     }
     .abo{
         height: 100vh;
@@ -654,6 +658,7 @@ footer p{
     .con h1{
         font-size: 35px;   
     }
+    
     .abo p{
         margin-left: 15%;
         width: 300px;
@@ -666,9 +671,13 @@ footer p{
         padding-top: 40px;
         font-size: 10px;
     }
+    
+    .project-content h2{
+        font-size: 20px;
+    }
 
     .desktop{  
-        margin-left: 10px;   
+       margin: auto;   
     }
 
     .project-content h2{
